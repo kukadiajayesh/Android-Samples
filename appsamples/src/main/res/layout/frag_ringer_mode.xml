@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.com.appsamples.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/btnRinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ringer" />
+
+    <Button
+        android:id="@+id/btnVibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibrate" />
+
+    <Button
+        android:id="@+id/btnSilent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silent" />
+
+    <TextView
+        android:id="@+id/tvMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Mode: " />
+
+
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="app.com.analystictest.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btnSecondScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:elevation="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Second Screen"
+        android:textAllCaps="false"
+        android:textColor="#797979" />
+
+    <Button
+        android:id="@+id/btnSendEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:elevation="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Send Event"
+        android:textAllCaps="false"
+        android:textColor="#797979" />
+
+    <Button
+        android:id="@+id/btnException"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:elevation="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Send Exception"
+        android:textAllCaps="false"
+        android:textColor="#797979" />
+
+    <Button
+        android:id="@+id/btnAppCrash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:elevation="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Send Crash"
+        android:textAllCaps="false"
+        android:textColor="#797979" />
+
+    <Button
+        android:id="@+id/btnLoadFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:elevation="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Load Fragment"
+        android:textAllCaps="false"
+        android:textColor="#797979" />
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

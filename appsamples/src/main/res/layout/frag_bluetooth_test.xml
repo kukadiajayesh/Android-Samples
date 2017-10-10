@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.com.appsamples.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/on" />
+
+        <Button
+            android:id="@+id/btnVisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Visible" />
+
+        <Button
+            android:id="@+id/btnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/off" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/List" />
+
+        <Button
+            android:id="@+id/btnPaired"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ListPair" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="visible"></ListView>
+
+</LinearLayout>

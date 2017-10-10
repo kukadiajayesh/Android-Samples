@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidSamples.iml" filepath="$PROJECT_DIR$/AndroidSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appAnalystic/appAnalystic.iml" filepath="$PROJECT_DIR$/appAnalystic/appAnalystic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appTheme/appTheme.iml" filepath="$PROJECT_DIR$/appTheme/appTheme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appfirebase/appfirebase.iml" filepath="$PROJECT_DIR$/appfirebase/appfirebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appsamples/appsamples.iml" filepath="$PROJECT_DIR$/appsamples/appsamples.iml" />
+    </modules>
+  </component>
+</project>

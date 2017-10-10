@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppSamples</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="on">Turn On</string>
+    <string name="off">Turn Off</string>
+    <string name="Visible">Get Visible</string>
+    <string name="ListPair">List Paired Devices</string>
+    <string name="List">Available Devices</string>
+
+
+</resources>
